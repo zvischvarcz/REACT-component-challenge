@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lunasima&display=swap');
+
+.netflixBox {
+    background-color: black;
+    width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw .5vw 0vw;
+}
+.netflixImages {
+    padding-left: .3vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+ .airbnbWrap{
+    display: flex;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.eachSetWrapAirBnb{
+    margin: 0.5vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.airbnbImages{
+    margin: 0;
+    padding: 0;
+    height: 23vw;
 }
 
-.App-link {
-  color: #61dafb;
+.airbnbText{
+    margin: 0;
+    font-family: 'Lunasima', sans-serif;
+    font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bbcWrap{
+    display: flex;
+    justify-content: center;
+}
+
+.eachSetWrapBbc{
+    width: min-content;
+    margin: 0.5vw;
+}
+
+.bbcImages{
+    width: 20vw;
+}
+
+.bbcTitle {
+    margin: 0;
+}
+
+.bbcText {
+    margin-top: 1vh;
+    margin-bottom: 0;
+}
+
+.bbcExtrasWrap {
+    display: flex;
+    align-items: center;
+    margin-top: 1vh;
+    padding: 0;
+}
+
+.bbcAgeText {
+    color: rgb(77, 77, 77);
+    font-size: 1.8vh;
+    margin: 0 0 0 0.2vw;
+    font-weight: 600;
+}
+
+.bbcCatText {
+    font-size: 1.8vh;
+    font-weight: 600;
+    margin: 0 0.5vw;
+    padding: 0 0vw 0 0.5vw;
+    border-left: 1px solid rgb(194, 194, 194);
+}
+
+.bbcClock{
+    margin-top: 0.2vh;
+}
+
+.bbcComment{
+    border-left: 1px solid rgb(194, 194, 194);
+    padding-left: 0.5vw;
 }
